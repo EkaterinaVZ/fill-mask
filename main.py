@@ -17,4 +17,5 @@ app = FastAPI()
 
 @app.post("/predict/")
 def predict(item: Item):
+    """Предварительно подготовленная модель на английском языке. Вместо [MASK] моделирует(подбирает) слово. Источник - https://huggingface.co/albert-base-v2"""
     return unmasker(item.text)[0]['sequence']
