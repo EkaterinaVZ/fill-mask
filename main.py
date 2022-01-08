@@ -1,14 +1,12 @@
+# https://huggingface.co/albert-base-v2
 from fastapi import FastAPI
 from pydantic import BaseModel
-from transformers import AutoTokenizer, AutoModelWithLMHead
 from transformers import pipeline
 
-tokenizer = AutoTokenizer.from_pretrained("t5-small")
+unmasker = pipeline('fill-mask', model='albert-base-v2')
 
-model = AutoModelWithLMHead.from_pretrained("t5-small")
 
-translator = pipeline("translation_en_to_de", "t5-small")
-
+# print(unmasker("I am a [MASK].")[0]['sequence'])
 
 class Item(BaseModel):
     text: str
@@ -17,11 +15,6 @@ class Item(BaseModel):
 app = FastAPI()
 
 
-@app.get("/")
-def root():
-    return {"message": "Hello World"}
-
-
 @app.post("/predict/")
 def predict(item: Item):
-    return translator(item.text)
+    return unmasker(item.text)[0]['sequence']
