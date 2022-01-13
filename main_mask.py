@@ -15,7 +15,14 @@ class Item(BaseModel):
 app = FastAPI()
 
 
+@app.get("/")
+def root():
+    return {"message": "All right, there is a connection."}
+
+
 @app.post("/predict/")
 def predict(item: Item):
-    """Предварительно подготовленная модель на английском языке. Вместо [MASK] моделирует(подбирает) слово. Источник - https://huggingface.co/albert-base-v2"""
+    """Предварительно подготовленная модель на английском языке.
+    Вместо [MASK] моделирует(подбирает) слово.
+    Источник - https://huggingface.co/albert-base-v2"""
     return unmasker(item.text)[0]['sequence']
