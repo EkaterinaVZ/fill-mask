@@ -24,5 +24,8 @@ def root():
 def predict(item: Item):
     """Предварительно подготовленная модель на английском языке.
     Вместо [MASK] моделирует(подбирает) слово.
-    Источник - https://huggingface.co/albert-base-v2"""
+    Источник - https://huggingface.co/albert-base-
+    Примеры фраз:  I study economics at University., I like apples and  pears., My friend often travels.,
+    I always get up at 8 o’clock in the morning., We have a flat in London., He plays football every Saturday.,
+    She sometimes listens to the radio."""
     return unmasker(item.text)[0]['sequence']
