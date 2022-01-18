@@ -1,10 +1,14 @@
-# fill-mask
+<head>
+  <title>fill-mask</title>
+</head>
 <a href="https://huggingface.co/albert-base-v2">released at this page</a>
 
 <a href="https://share.streamlit.io/ekaterinavz/fillmask/uber_pickups.py">app with a model on Streamlit</a>
-&emsp;
+
+
 Example for use:
-![image](https://user-images.githubusercontent.com/80875367/149998986-5277ad5e-39c7-4668-b5ec-f2c2bc34739d.png)
+
+&emsp;![image](https://user-images.githubusercontent.com/80875367/149998986-5277ad5e-39c7-4668-b5ec-f2c2bc34739d.png)
 
 
 ALBERT Base v2
