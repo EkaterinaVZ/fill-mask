@@ -24,6 +24,7 @@
 ```
    Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in
    this paper and first released in this repository. This model, as all ALBERT models, is uncased: it does not make a difference between english and English.
+```
 
   #### Model description
   ALBERT is a transformers model pretrained on a large corpus of English data in a self-supervised fashion.
@@ -34,7 +35,7 @@
   Sentence Ordering Prediction (SOP): ALBERT uses a pretraining loss based on predicting the ordering of two consecutive segments of text.
   This way, the model learns an inner representation of the English language that can then be used to extract features useful for downstream tasks: 
   if you have a dataset of labeled sentences for instance, you can train a standard classifier using the features produced by the ALBERT model as inputs.
-
+```
 This model has the following configuration:
 _______________________________________________________________________________________________________________________________________________________________________________
 12 repeating layers
