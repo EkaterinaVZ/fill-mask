@@ -1,4 +1,4 @@
-# Fill-mask &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![image](https://user-images.githubusercontent.com/80875367/150008383-e7cdff91-bc8d-43ff-9257-c561a17ac84a.png)
+# Fill-mask &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![image](https://user-images.githubusercontent.com/80875367/150008660-595dc7a0-6011-424a-a75c-dac945bfb81c.png)
 
 <a href="https://share.streamlit.io/ekaterinavz/fillmask/uber_pickups.py">app with a model on Streamlit</a>&#9989;
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
