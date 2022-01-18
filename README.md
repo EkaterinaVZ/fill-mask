@@ -5,7 +5,8 @@
 ----
 
 ### Example for use in Heroku and Streamlit:
-![image](https://user-images.githubusercontent.com/80875367/150014319-d8a8742f-35c9-4ad7-8861-a1ef75e45b2f.png)
+![image](https://user-images.githubusercontent.com/80875367/150014319-d8a8742f-35c9-4ad7-8861-a1ef75e45b2f.png)![image](https://user-images.githubusercontent.com/80875367/150014727-21db1a9a-89e8-41b9-82af-cf99ef8e4a02.png)
+
 &emsp;&emsp;![image](https://user-images.githubusercontent.com/80875367/150005724-29046fa2-8e0f-43f8-b59c-0bc8538e596f.png)
 
 <code>Example for Curl:
