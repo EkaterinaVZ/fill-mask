@@ -8,8 +8,8 @@
 ![image](https://user-images.githubusercontent.com/80875367/150015002-a2f58f37-29e1-4ae1-9f17-1130bb91515d.png)
 &emsp;&emsp;![image](https://user-images.githubusercontent.com/80875367/150005724-29046fa2-8e0f-43f8-b59c-0bc8538e596f.png)
 
-<code>Example for Curl:
-curl -X 'POST' \
+### Example for Curl:
+<code>curl -X 'POST' \
   'https://fill-mask.herokuapp.com/predict/' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
