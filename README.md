@@ -19,7 +19,7 @@
   "text": "He plays football every [MASK]."
    }'
 ```
-......................................................................................................................................
+...................................................................................................................................
 ```
    ## ALBERT Base v2 &#9997;
 <a href="https://huggingface.co/albert-base-v2">released of the model at this page</a>
@@ -40,7 +40,7 @@
   if you have a dataset of labeled sentences for instance, you can train a standard classifier using the features produced by the ALBERT model as inputs.
 ```
 This model has the following configuration:
-_____________________________________________________________________________________________________________________________________
+__________________________________________________________________________________________________________________________________
 12 repeating layers
 128 embedding dimension
 768 hidden dimension
