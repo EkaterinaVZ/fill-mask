@@ -1,5 +1,3 @@
-```
-```
 # Fill-mask![image](https://user-images.githubusercontent.com/80875367/150012330-38df6b01-bee5-4e6b-8def-a8b7abf28579.png)
 <a href="https://share.streamlit.io/ekaterinavz/fillmask/uber_pickups.py">app on Streamlit</a>&#9989;
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
@@ -7,6 +5,8 @@
 ----
 
 ### Example for use in Streamli and Heroku:
+```
+```
 ![image](https://user-images.githubusercontent.com/80875367/150005724-29046fa2-8e0f-43f8-b59c-0bc8538e596f.png) 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![image](https://user-images.githubusercontent.com/80875367/150015002-a2f58f37-29e1-4ae1-9f17-1130bb91515d.png)
 ```
