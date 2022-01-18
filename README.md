@@ -1,5 +1,5 @@
-# Fill-mask 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![image](https://user-images.githubusercontent.com/80875367/150008660-595dc7a0-6011-424a-a75c-dac945bfb81c.png)
+# Fill-mask ![image](https://user-images.githubusercontent.com/80875367/150010079-48d697ec-7289-447a-931a-5275c574e7f5.png)
+
 <a href="https://share.streamlit.io/ekaterinavz/fillmask/uber_pickups.py">app with a model on Streamlit</a>&#9989;
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 <a href="https://fill-mask.herokuapp.com/docs">app with a model on Heroku</a>&#9989;
