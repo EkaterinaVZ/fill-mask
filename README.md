@@ -17,7 +17,8 @@
   "text": "He plays football every [MASK]."
 }'</code>
 
-## ALBERT Base v2 <a class="icon edit" href=""></a>
+## ALBERT Base v2 
+<a class="icon edit" href=""></a>
 <a href="https://huggingface.co/albert-base-v2">released of the model at this page</a>
 ----
 ```
