@@ -1,10 +1,12 @@
-<head>
-  <title>fill-mask</title>
-</head>
-<a href="https://huggingface.co/albert-base-v2">released at this page</a>
-
+#fill-mask
+p {
+line-height: 1;
+}
+<p>
+<a href="https://huggingface.co/albert-base-v2">released of the model at this page</a>
+&emsp;
 <a href="https://share.streamlit.io/ekaterinavz/fillmask/uber_pickups.py">app with a model on Streamlit</a>
-
+</p>
 
 Example for use:
 
