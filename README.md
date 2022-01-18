@@ -9,13 +9,13 @@
 &emsp;&emsp;![image](https://user-images.githubusercontent.com/80875367/150005724-29046fa2-8e0f-43f8-b59c-0bc8538e596f.png)
 
 ### Example code for Curl:
-<code>curl -X 'POST' \
+  <code>curl -X 'POST' \
   'https://fill-mask.herokuapp.com/predict/' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
   -d '{
   "text": "He plays football every [MASK]."
-}'</code>
+  }'</code>
 
 ## ALBERT Base v2 &#9997;
 <a class="icon edit" href=""></a>
