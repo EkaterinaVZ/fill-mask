@@ -1,5 +1,10 @@
 # fill-mask
 <a href="https://huggingface.co/albert-base-v2">released at this page</a>
+<a href="https://share.streamlit.io/ekaterinavz/fillmask/uber_pickups.py">app with a model on Streamlit</a>
+Example for use:
+https://skr.sh/sC4InFS9xwe?a
+![image](https://user-images.githubusercontent.com/80875367/149998786-daac2b51-b1d3-4d0e-abbe-3961179fbbbe.png)
+
 
 ALBERT Base v2
 Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in this paper and first released in this repository. This model, as all ALBERT models, is uncased: it does not make a difference between english and English.
