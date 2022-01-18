@@ -22,13 +22,18 @@
 <a href="https://huggingface.co/albert-base-v2">released of the model at this page</a>
 ----
 ```
-Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in this paper and first released in this repository. This model, as all ALBERT models, is uncased: it does not make a difference between english and English.
+   Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in
+   this paper and first released in this repository. This model, as all ALBERT models, is uncased: it does not make a difference between english and English.
 
-Model description
-ALBERT is a transformers model pretrained on a large corpus of English data in a self-supervised fashion.
-Masked language modeling (MLM): taking a sentence, the model randomly masks 15% of the words in the input then run the entire masked sentence through the model and has to predict the masked words. This is different from traditional recurrent neural networks (RNNs) that usually see the words one after the other, or from autoregressive models like GPT which internally mask the future tokens. It allows the model to learn a bidirectional representation of the sentence.
-Sentence Ordering Prediction (SOP): ALBERT uses a pretraining loss based on predicting the ordering of two consecutive segments of text.
-This way, the model learns an inner representation of the English language that can then be used to extract features useful for downstream tasks: if you have a dataset of labeled sentences for instance, you can train a standard classifier using the features produced by the ALBERT model as inputs.
+  #### Model description
+  ALBERT is a transformers model pretrained on a large corpus of English data in a self-supervised fashion.
+  Masked language modeling (MLM): taking a sentence, the model randomly masks 15% of the words in the input then run the entire masked sentence through the 
+  model and has to       predict the masked words. This is different from traditional recurrent neural networks (RNNs) that usually see the words one after 
+  the other, or from autoregressive models       like GPT which internally mask the future tokens. It allows the model to learn a bidirectional representation
+  of the sentence.
+  Sentence Ordering Prediction (SOP): ALBERT uses a pretraining loss based on predicting the ordering of two consecutive segments of text.
+  This way, the model learns an inner representation of the English language that can then be used to extract features useful for downstream tasks: 
+  if you have a dataset of labeled sentences for instance, you can train a standard classifier using the features produced by the ALBERT model as inputs.
 
 This model has the following configuration:
 _______________________________________________________________________________________________________________________________________________________________________________
