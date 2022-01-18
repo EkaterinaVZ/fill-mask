@@ -5,7 +5,7 @@
 <a href="https://share.streamlit.io/ekaterinavz/fillmask/uber_pickups.py">app with a model on Streamlit</a>&#9989;
 
 
-### Example for use:
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp### Example for use:
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![image](https://user-images.githubusercontent.com/80875367/149998986-5277ad5e-39c7-4668-b5ec-f2c2bc34739d.png)
 
