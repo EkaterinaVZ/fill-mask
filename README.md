@@ -1,8 +1,9 @@
-# Fill-mask &emsp;&emsp;![image](https://user-images.githubusercontent.com/80875367/150012330-38df6b01-bee5-4e6b-8def-a8b7abf28579.png)
+# Fill-mask![image](https://user-images.githubusercontent.com/80875367/150012330-38df6b01-bee5-4e6b-8def-a8b7abf28579.png)
 <a href="https://share.streamlit.io/ekaterinavz/fillmask/uber_pickups.py">app with a model on Streamlit</a>&#9989;
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 <a href="https://fill-mask.herokuapp.com/docs">app with a model on Heroku</a>&#9989;
 ----
+
 ### Example for use:
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![image](https://user-images.githubusercontent.com/80875367/150005724-29046fa2-8e0f-43f8-b59c-0bc8538e596f.png)
 
@@ -15,7 +16,7 @@ curl -X 'POST' \
   "text": "He plays football every [MASK]."
 }'</code>
 
-### ALBERT Base v2
+## ALBERT Base v2
 <a href="https://huggingface.co/albert-base-v2">released of the model at this page</a>
 ----
 ```
@@ -29,12 +30,8 @@ Masked language modeling (MLM): taking a sentence, the model randomly masks 15% 
 Sentence Ordering Prediction (SOP): ALBERT uses a pretraining loss based on predicting the ordering of two consecutive segments of text.
 This way, the model learns an inner representation of the English language that can then be used to extract features useful for downstream tasks: if you have a dataset of labeled sentences for instance, you can train a standard classifier using the features produced by the ALBERT model as inputs.
 
-ALBERT is particular in that it shares its layers across its Transformer. Therefore, all layers have the same weights. Using repeating layers results in a small memory footprint, however, the computational cost remains similar to a BERT-like architecture with the same number of hidden layers as it has to iterate through the same number of (repeating) layers.
-
-This is the second version of the base model. Version 2 is different from version 1 due to different dropout rates, additional training data, and longer training. It has better results in nearly all downstream tasks.
-
 This model has the following configuration:
-____________________________________________
+_______________________________________________________________________________________________________________________________________________________________________________
 12 repeating layers
 128 embedding dimension
 768 hidden dimension
