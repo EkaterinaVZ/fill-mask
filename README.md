@@ -1,6 +1,6 @@
 # Fill-mask
 
-<small><a href="https://huggingface.co/albert-base-v2">released of the model at this page</a></small>
+[["https://huggingface.co/albert-base-v2"released of the model at this page]]
 &emsp;&emsp;
 <a href="https://share.streamlit.io/ekaterinavz/fillmask/uber_pickups.py">app with a model on Streamlit</a>&#9989;
 &emsp;&emsp;
