@@ -16,14 +16,15 @@
   -d '{
   "text": "He plays football every [MASK]."
    }'
-
+```
+```
    ## ALBERT Base v2 &#9997;
 <a href="https://huggingface.co/albert-base-v2">released of the model at this page</a>
 ----
-```
+
    Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in
    this paper and first released in this repository. This model, as all ALBERT models, is uncased: it does not make a difference between english and English.
-```
+
 
    #### Model description
   ALBERT is a transformers model pretrained on a large corpus of English data in a self-supervised fashion.
