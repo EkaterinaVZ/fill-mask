@@ -1,4 +1,4 @@
-# Fill-mask &emsp;&emsp;![image](https://user-images.githubusercontent.com/80875367/150011766-daf6e26e-3456-4c0f-a902-27995ac79835.png)
+# Fill-mask &emsp;&emsp;![image](https://user-images.githubusercontent.com/80875367/150012330-38df6b01-bee5-4e6b-8def-a8b7abf28579.png)
 <a href="https://share.streamlit.io/ekaterinavz/fillmask/uber_pickups.py">app with a model on Streamlit</a>&#9989;
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 <a href="https://fill-mask.herokuapp.com/docs">app with a model on Heroku</a>&#9989;
@@ -25,7 +25,7 @@ ALBERT is particular in that it shares its layers across its Transformer. Theref
 This is the second version of the base model. Version 2 is different from version 1 due to different dropout rates, additional training data, and longer training. It has better results in nearly all downstream tasks.
 
 This model has the following configuration:
-
+----
 12 repeating layers
 128 embedding dimension
 768 hidden dimension
