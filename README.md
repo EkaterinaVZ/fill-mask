@@ -3,8 +3,7 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 <a href="https://fill-mask.herokuapp.com/docs">app on Heroku</a>&#9989;
 ----
-...............................................
-......................................
+
 ### Example for use in Streamli and Heroku:
 
 ![image](https://user-images.githubusercontent.com/80875367/150005724-29046fa2-8e0f-43f8-b59c-0bc8538e596f.png) 
@@ -20,6 +19,7 @@
   "text": "He plays football every [MASK]."
    }'
 ```
+........................................................................................................................................................
 ```
    ## ALBERT Base v2 &#9997;
 <a href="https://huggingface.co/albert-base-v2">released of the model at this page</a>
