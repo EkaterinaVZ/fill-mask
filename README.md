@@ -1,8 +1,8 @@
-== Fill-mask ==
+==Fill-mask==
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="https://huggingface.co/albert-base-v2">released of the model at this page</a>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-<a href="https://share.streamlit.io/ekaterinavz/fillmask/uber_pickups.py">app with a model on Streamlit</a>
+<a href="https://share.streamlit.io/ekaterinavz/fillmask/uber_pickups.py">app with a model on Streamlit</a>&#9989;
 ----
 ### Example for use:
 ----
