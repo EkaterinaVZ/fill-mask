@@ -17,8 +17,7 @@
   "text": "He plays football every [MASK]."
    }'
 
-## ALBERT Base v2 &#9997;
-<a class="icon edit" href=""></a>
+   ## ALBERT Base v2 &#9997;
 <a href="https://huggingface.co/albert-base-v2">released of the model at this page</a>
 ----
 ```
@@ -26,7 +25,7 @@
    this paper and first released in this repository. This model, as all ALBERT models, is uncased: it does not make a difference between english and English.
 ```
 
-  #### Model description
+   #### Model description
   ALBERT is a transformers model pretrained on a large corpus of English data in a self-supervised fashion.
   Masked language modeling (MLM): taking a sentence, the model randomly masks 15% of the words in the input then run the entire masked sentence through the 
   model and has to       predict the masked words. This is different from traditional recurrent neural networks (RNNs) that usually see the words one after 
