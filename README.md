@@ -1,4 +1,4 @@
-{{center|# Fill-mask}}
+{{center| Fill-mask}}
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="https://huggingface.co/albert-base-v2">released of the model at this page</a>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
