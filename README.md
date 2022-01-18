@@ -7,7 +7,7 @@
 <a href="https://fill-mask.herokuapp.com/docs">app with a model on Heroku</a>&#9989;
 ----
 ### Example for use:
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![image](https://user-images.githubusercontent.com/80875367/149998986-5277ad5e-39c7-4668-b5ec-f2c2bc34739d.png)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![image](https://user-images.githubusercontent.com/80875367/150005724-29046fa2-8e0f-43f8-b59c-0bc8538e596f.png)
 
 
 ### ALBERT Base v2
