@@ -6,13 +6,7 @@
 
 ### Example for use in Heroku and Streamlit:
 ![image](https://user-images.githubusercontent.com/80875367/150015002-a2f58f37-29e1-4ae1-9f17-1130bb91515d.png)
-&emsp;&emsp;![image](https://user-images.githubusercontent.com/80875367/150005724-29046fa2-8e0f-43f8-b59c-0bc8538e596f.png) curl -X 'POST' \
-  'http://127.0.0.1:8000/predict/' \
-  -H 'accept: application/json' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "text": "He plays football every [MASK]."
-   }'
+&emsp;&emsp;![image](https://user-images.githubusercontent.com/80875367/150005724-29046fa2-8e0f-43f8-b59c-0bc8538e596f.png) 
 
 ### Example code for Curl:
    curl -X 'POST' \
