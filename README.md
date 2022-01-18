@@ -6,6 +6,15 @@
 ### Example for use:
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![image](https://user-images.githubusercontent.com/80875367/150005724-29046fa2-8e0f-43f8-b59c-0bc8538e596f.png)
 
+<code>Example for Curl:
+curl -X 'POST' \
+  'https://fill-mask.herokuapp.com/predict/' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "text": "He plays football every [MASK]."
+}'</code>
+
 ### ALBERT Base v2
 <a href="https://huggingface.co/albert-base-v2">released of the model at this page</a>
 ----
@@ -25,7 +34,7 @@ ALBERT is particular in that it shares its layers across its Transformer. Theref
 This is the second version of the base model. Version 2 is different from version 1 due to different dropout rates, additional training data, and longer training. It has better results in nearly all downstream tasks.
 
 This model has the following configuration:
-----
+____________________________________________
 12 repeating layers
 128 embedding dimension
 768 hidden dimension
