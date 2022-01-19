@@ -9,13 +9,13 @@ __________
 
 ----
 
-### Example for use in Streamli and Heroku:
+## Example for use in Streamli and Heroku:
 
 ![image](https://user-images.githubusercontent.com/80875367/150005724-29046fa2-8e0f-43f8-b59c-0bc8538e596f.png) 
 &emsp;&emsp;&emsp;![image](https://user-images.githubusercontent.com/80875367/150015002-a2f58f37-29e1-4ae1-9f17-1130bb91515d.png)
 ```
 ```
-### Example code for Curl:
+## Example code for Curl:
    curl -X 'POST' \
   'http://127.0.0.1:8000/predict/' \
   -H 'accept: application/json' \
@@ -46,11 +46,11 @@ __________
 ```
 This model has the following configuration:
 __________________________________________________________________________________________________________________________________
-	&bull; 12 repeating layers
-	&bull; 128 embedding dimension
-	&bull; 768 hidden dimension
-	&bull; 12 attention heads
-	&bull; 11M parameters
+	* 12 repeating layers
+	* 128 embedding dimension
+	* 768 hidden dimension
+	* 12 attention heads
+	* 11M parameters
 ```
 
 [![Python application](https://github.com/EkaterinaVZ/fill-mask/actions/workflows/python-app.yml/badge.svg)](https://github.com/EkaterinaVZ/fill-mask/actions/workflows/python-app.yml)
