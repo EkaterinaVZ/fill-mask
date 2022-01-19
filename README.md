@@ -15,6 +15,20 @@ ___Masked language modeling ___
 &emsp;&emsp;&emsp;![image](https://user-images.githubusercontent.com/80875367/150015002-a2f58f37-29e1-4ae1-9f17-1130bb91515d.png)
 ```
 ```
+```html
+    <input type="text">
+```
+
+```css
+    body {
+        margin: 0;
+        padding: 0;
+    }
+```
+
+```php
+    <?php phpinfo();?>
+```
 ### Example code for Curl:
    curl -X 'POST' \
   'http://127.0.0.1:8000/predict/' \
