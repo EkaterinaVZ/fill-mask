@@ -15,20 +15,6 @@ ___Masked language modeling ___
 &emsp;&emsp;&emsp;![image](https://user-images.githubusercontent.com/80875367/150015002-a2f58f37-29e1-4ae1-9f17-1130bb91515d.png)
 ```
 ```
-```html
-    <input type="text">
-```
-
-```css
-    body {
-        margin: 0;
-        padding: 0;
-    }
-```
-
-```php
-    <?php phpinfo();?>
-```
 ### Example code for Curl:
    curl -X 'POST' \
   'http://127.0.0.1:8000/predict/' \
@@ -60,11 +46,11 @@ ___Masked language modeling ___
 ```
 This model has the following configuration:
 __________________________________________________________________________________________________________________________________
-12 repeating layers
-128 embedding dimension
-768 hidden dimension
-12 attention heads
-11M parameters
+	&#8226;12 repeating layers
+	&#8226;128 embedding dimension
+	&#8226;768 hidden dimension
+	&#8226;12 attention heads
+	&#8226;11M parameters
 ```
 
 [![Python application](https://github.com/EkaterinaVZ/fill-mask/actions/workflows/python-app.yml/badge.svg)](https://github.com/EkaterinaVZ/fill-mask/actions/workflows/python-app.yml)
