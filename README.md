@@ -46,12 +46,12 @@ __________
 This model has the following configuration:
 ```
 __________________________________________________________________________________________________________________________________
-<ul>
-     <li type="disc">12 repeating layers</li>
-     <li type="disc">128 embedding dimension</li>
-     <li type="disc">768 hidden dimension</li>
-     <li type="disc">12 attention heads</li>
-     <li type=&bull;>11M parameters</li>
+<ul type="circle">
+     <li">12 repeating layers</li>
+     <li>128 embedding dimension</li>
+     <li>768 hidden dimension</li>
+     <li>12 attention heads</li>
+     <li>11M parameters</li>
    </ul>
 
 
