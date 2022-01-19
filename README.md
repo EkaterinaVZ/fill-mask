@@ -44,7 +44,6 @@ __________
  
 ```
 This model has the following configuration:
-```
 __________________________________________________________________________________________________________________________________
 <ul style="list-style-type: disc">
      <li>12 repeating layers</li>
