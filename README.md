@@ -46,11 +46,15 @@ __________
 This model has the following configuration:
 ```
 __________________________________________________________________________________________________________________________________
-&#8226;12 repeating layers
-&#8226;128 embedding dimension
-&#9674; 768 hidden dimension
-&#9674; 12 attention heads
-&#9674; 11M parameters
+<ul>
+     <li type="disc">12 repeating layers</li>
+     <li type="disc">128 embedding dimension</li>
+     <li type="disc">768 hidden dimension</li>
+     <li type="disc">12 attention heads</li>
+     <li type=&bull;>11M parameters</li>
+   </ul>
+
+
 
 
 [![Python application](https://github.com/EkaterinaVZ/fill-mask/actions/workflows/python-app.yml/badge.svg)](https://github.com/EkaterinaVZ/fill-mask/actions/workflows/python-app.yml)
