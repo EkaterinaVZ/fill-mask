@@ -2,8 +2,8 @@
 
 ___Masked language modeling (bold italic)___
 __________
-### &emsp;&emsp;&emsp;<a href="https://share.streamlit.io/ekaterinavz/fillmask/uber_pickups.py">app on Streamlit</a>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+### &emsp;<a href="https://share.streamlit.io/ekaterinavz/fillmask/uber_pickups.py">app on Streamlit</a>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 ### <a href="https://fill-mask.herokuapp.com/docs">app on Heroku</a>&#9989;
 
 ----
