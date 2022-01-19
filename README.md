@@ -1,10 +1,11 @@
 # Fill-mask![image](https://user-images.githubusercontent.com/80875367/150012330-38df6b01-bee5-4e6b-8def-a8b7abf28579.png)
+```
 ___Masked language modeling(bold italic)___
 ```
 <a href="https://share.streamlit.io/ekaterinavz/fillmask/uber_pickups.py">app on Streamlit</a>&#9989;
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 <a href="https://fill-mask.herokuapp.com/docs">app on Heroku</a>&#9989;
-```
+
 ----
 
 ### Example for use in Streamli and Heroku:
