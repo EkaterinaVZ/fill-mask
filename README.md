@@ -27,6 +27,7 @@ __________
 ...................................................................................................................................
 ```
    ## ALBERT Base v2 &#9997;
+----
 <a href="https://huggingface.co/albert-base-v2">released of the model at this page</a>
 ----
 
@@ -45,12 +46,13 @@ __________
   if you have a dataset of labeled sentences for instance, you can train a standard classifier using the features produced by the ALBERT model as inputs.
 ```
 This model has the following configuration:
+```
 __________________________________________________________________________________________________________________________________
 	* 12 repeating layers
 	* 128 embedding dimension
 	* 768 hidden dimension
 	* 12 attention heads
 	* 11M parameters
-```
+
 
 [![Python application](https://github.com/EkaterinaVZ/fill-mask/actions/workflows/python-app.yml/badge.svg)](https://github.com/EkaterinaVZ/fill-mask/actions/workflows/python-app.yml)
