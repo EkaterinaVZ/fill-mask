@@ -41,7 +41,7 @@ __________
   Sentence Ordering Prediction (SOP): ALBERT uses a pretraining loss based on predicting the ordering of two consecutive segments of text.
   This way, the model learns an inner representation of the English language that can then be used to extract features useful for downstream tasks: 
   if you have a dataset of labeled sentences for instance, you can train a standard classifier using the features produced by the ALBERT model as inputs.</p>
- 
+```
 ```
 This model has the following configuration:
 __________________________________________________________________________________________________________________________________
