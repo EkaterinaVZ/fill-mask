@@ -43,7 +43,7 @@ __________
   if you have a dataset of labeled sentences for instance, you can train a standard classifier using the features produced by the ALBERT model as inputs.
 ```
 This model has the following configuration:
-
+```
 __________________________________________________________________________________________________________________________________
 	* 12 repeating layers
 	* 128 embedding dimension
