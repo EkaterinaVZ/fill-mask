@@ -47,7 +47,7 @@ This model has the following configuration:
 ```
 __________________________________________________________________________________________________________________________________
 <ul type="circle">
-     <li">12 repeating layers</li>
+     <li>12 repeating layers</li>
      <li>128 embedding dimension</li>
      <li>768 hidden dimension</li>
      <li>12 attention heads</li>
