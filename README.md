@@ -1,6 +1,7 @@
 # Fill-mask![image](https://user-images.githubusercontent.com/80875367/150012330-38df6b01-bee5-4e6b-8def-a8b7abf28579.png)
 
 ___Masked language modeling (bold italic)___
+__________
 
 &emsp;&emsp;&emsp;&emsp;&emsp;<a href="https://share.streamlit.io/ekaterinavz/fillmask/uber_pickups.py">app on Streamlit</a>&#9989;
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
@@ -45,11 +46,11 @@ ___Masked language modeling (bold italic)___
 ```
 This model has the following configuration:
 __________________________________________________________________________________________________________________________________
-	&#8226;12 repeating layers
-	&#8226;128 embedding dimension
-	&#8226;768 hidden dimension
-	&#8226;12 attention heads
-	&#8226;11M parameters
+	&bull; 12 repeating layers
+	&bull; 128 embedding dimension
+	&bull; 768 hidden dimension
+	&bull; 12 attention heads
+	&bull; 11M parameters
 ```
 
 [![Python application](https://github.com/EkaterinaVZ/fill-mask/actions/workflows/python-app.yml/badge.svg)](https://github.com/EkaterinaVZ/fill-mask/actions/workflows/python-app.yml)
