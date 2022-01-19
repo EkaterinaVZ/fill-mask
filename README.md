@@ -46,7 +46,7 @@ __________
 This model has the following configuration:
 ```
 __________________________________________________________________________________________________________________________________
-<ul type="circle">
+<ul style="list-style-type: disc">
      <li>12 repeating layers</li>
      <li>128 embedding dimension</li>
      <li>768 hidden dimension</li>
