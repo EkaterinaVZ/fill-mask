@@ -46,7 +46,7 @@ __________
 This model has the following configuration:
 ```
 __________________________________________________________________________________________________________________________________
-&#9674; 12 repeating layers
+	&#8226; 12 repeating layers
 &#9674; 128 embedding dimension
 &#9674; 768 hidden dimension
 &#9674; 12 attention heads
