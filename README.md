@@ -28,7 +28,7 @@ __________
 ```
    ## ALBERT Base v2 &#9997;
 ----
-<a href="https://huggingface.co/albert-base-v2">released of the model at this page</a>
+[released of the model at this page](https://huggingface.co/albert-base-v2)
 ----
 
    Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in
