@@ -4,10 +4,7 @@ Here's our first attempt at using data to create a table:
 """
 
 import streamlit as st
-from fastapi import FastAPI
-from pydantic import BaseModel
 from transformers import pipeline
-
 
 st.image("logotip.png", width=400)
 
@@ -27,6 +24,4 @@ if inp:
         print(el)
         st.write(el["sequence"])
 
-
 # streamlit run C:/Users/Админ/PycharmProjects/fill-mask/uber_pickups1.py
-

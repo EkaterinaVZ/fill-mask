@@ -3,11 +3,10 @@
 Here's our first attempt at using data to create a table:
 """
 
-import streamlit as st
-
-from transformers import pipeline
 import time
 
+import streamlit as st
+from transformers import pipeline
 
 #  логотип и название
 col1, col2 = st.columns(2)
