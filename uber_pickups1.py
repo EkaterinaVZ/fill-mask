@@ -21,11 +21,7 @@ with col2:
 
 st.sidebar.image("logotip.png", width=250)
 st.sidebar.title("About the project:")
-st.sidebar.info(
-    """
-    Machine learning model 'albert-base-v2' (https://huggingface.co/albert-base-v2). 
-    """
-)
+st.sidebar.info("""    Machine learning model 'albert-base-v2' (https://huggingface.co/albert-base-v2).""")
 
 st.sidebar.info(
     """
@@ -48,7 +44,8 @@ st.sidebar.info(
 
 # Ввод текста
 
-inp = st.text_input('Please type the text in English using [MASK] (as shown below):', 'I study economics at [MASK].')
+inp = st.text_input('Please type the text in English using [MASK] (as shown below):',
+                    'I study economics at [MASK].')
 run_button = st.button(label='Run')
 
 if run_button:
@@ -61,9 +58,7 @@ if run_button:
     for el in text:
         st.write(el["sequence"])
 
-# Убрать STREAMLIT STYLE 
-
-
+# Убрать STREAMLIT STYLE
 # streamlit run uber_pickups1.py
 # streamlit run C:/Users/Админ/PycharmProjects/fill-mask/uber_pickups1.py
 # from xml.etree.ElementTree import TreeBuilder
