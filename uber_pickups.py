@@ -12,7 +12,7 @@ st.title('Model "Fill mask"', anchor="Mask")
 
 inp = st.text_input(
     "Введите текст на языке согласно представленному ниже образцу",
-    "I study economics at [MASK]."
+    "I study economics at [MASK].",
 )
 
 unmasker = pipeline("fill-mask", model="albert-base-v2")

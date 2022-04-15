@@ -48,7 +48,7 @@ st.sidebar.info(
 
 inp = st.text_input(
     "Please type the text in English using [MASK] (as shown below):",
-    "I study economics at [MASK]."
+    "I study economics at [MASK].",
 )
 run_button = st.button(label="Run")
 
