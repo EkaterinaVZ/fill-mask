@@ -21,7 +21,9 @@ with col2:
 
 st.sidebar.image("logotip.png", width=250)
 st.sidebar.title("About the project:")
-st.sidebar.info("""    Machine learning model 'albert-base-v2' (https://huggingface.co/albert-base-v2).""")
+st.sidebar.info(
+    """Machine learning model 'albert-base-v2' (https://huggingface.co/albert-base-v2)."""
+)
 
 st.sidebar.info(
     """
@@ -44,14 +46,16 @@ st.sidebar.info(
 
 # Ввод текста
 
-inp = st.text_input('Please type the text in English using [MASK] (as shown below):',
-                    'I study economics at [MASK].')
-run_button = st.button(label='Run')
+inp = st.text_input(
+    "Please type the text in English using [MASK] (as shown below):",
+    "I study economics at [MASK]."
+)
+run_button = st.button(label="Run")
 
 if run_button:
-    with st.spinner('Wait for it...'):
+    with st.spinner("Wait for it..."):
         time.sleep(5)
-        unmasker = pipeline('fill-mask', model='albert-base-v2')
+        unmasker = pipeline("fill-mask", model="albert-base-v2")
         text = unmasker(inp)
     st.balloons()
     st.success("Possible variants for the sentence:")

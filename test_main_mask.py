@@ -12,9 +12,8 @@ def test_get_main():
 
 
 def test_post_predict_one():
-    response = client.post("/predict/",
-                           json={"text": "All [MASK], there is a connection."}
-                           )
+    response = client.post(
+        "/predict/", json={"text": "All [MASK], there is a connection."})
     json_data = response.json()
 
     assert response.status_code == 200
@@ -22,30 +21,27 @@ def test_post_predict_one():
 
 
 def test_post_predict_two():
-    response = client.post("/predict/",
-                           json={"text": "I hate [MASK] learning!"}
-                           )
+    response = client.post(
+        "/predict/", json={"text": "I hate [MASK] learning!"})
     json_data = response.json()
 
     assert response.status_code == 200
-    assert json_data == 'i hate constantly learning!'
+    assert json_data == "i hate constantly learning!"
 
 
 def test_post_predict_three():
-    response = client.post("/predict/",
-                           json={"text": "I work in [MASK]."}
-                           )
+    response = client.post(
+        "/predict/", json={"text": "I work in [MASK]."})
     json_data = response.json()
 
     assert response.status_code == 200
-    assert json_data == 'i work in hanoi.'
+    assert json_data == "i work in hanoi."
 
 
 def test_post_predict_four():
-    response = client.post("/predict/",
-                           json={"text": "we are [MASK] at the university for the second year."}
-                           )
+    response = client.post(
+        "/predict/", json={"text": "we are [MASK] at the university for the second year."})
     json_data = response.json()
 
     assert response.status_code == 200
-    assert json_data == 'we are now at the university for the second year.'
+    assert json_data == "we are now at the university for the second year."
