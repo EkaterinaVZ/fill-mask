@@ -42,8 +42,7 @@ def test_post_predict_four():
          "/predict/",
          json={"text": "we are [MASK] at the university for the second year."},
      )
-     json_data = response.json()
+    json_data = response.json()
    
-
     assert response.status_code == 200
     assert json_data == "we are now at the university for the second year."
