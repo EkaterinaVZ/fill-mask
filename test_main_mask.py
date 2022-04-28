@@ -41,9 +41,7 @@ def test_post_predict_three():
 def test_post_predict_four():
     response = client.post(
         "/predict/",
-        json={"text": "we are [MASK] at the university for the second year."}
-    )
-
+        json={"text": "we are [MASK] at the university for the second year."})
     json_data = response.json()
 
     assert response.status_code == 200
