@@ -2,11 +2,12 @@
 # Our first app
 """
 
-import streamlit as st
-from transformers import pipeline
 import time
 
+import streamlit as st
+from transformers import pipeline
 
+unmasker = pipeline('fill-mask', model='albert-base-v2')
 #  логотип и название
 col1, col2 = st.columns([1, 1])
 
@@ -53,7 +54,7 @@ run_button = st.button(label='Run')
 if run_button:
     with st.spinner('Wait for it...'):
         time.sleep(5)
-        unmasker = pipeline('fill-mask', model='albert-base-v2')
+
         text = unmasker(inp)
     st.balloons()
     st.success("Possible variants for the sentence:")
