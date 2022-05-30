@@ -30,3 +30,4 @@ def predict(item: Item):
 #     She sometimes listens to the radio"""
 
     return unmasker(item.text)[0]["sequence"]
+
