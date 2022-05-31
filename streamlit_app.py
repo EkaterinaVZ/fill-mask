@@ -1,5 +1,5 @@
 """
-# Our first app
+# Our streamlit app
 """
 
 import time
