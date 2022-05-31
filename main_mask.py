@@ -5,6 +5,7 @@ from transformers import pipeline
 
 unmasker = pipeline("fill-mask", model="albert-base-v2")
 
+
 print(unmasker("I am a [MASK].")[0]['sequence'])
 
 
@@ -28,7 +29,5 @@ def predict(item: Item):
     Примеры фраз:  I study economics at [MASK]., I like apples and  pears., My friend often travels.,
     I always get up at 8 o’clock in the morning., We have a flat in London., He plays football every Saturday.,
     She sometimes listens to the radio"""
-
-    return unmasker(item.text)[0]["sequence"]
 
     return unmasker(item.text)[0]["sequence"]

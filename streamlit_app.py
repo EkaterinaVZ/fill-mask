@@ -9,7 +9,7 @@ from transformers import pipeline
 
 
 def load_model():
-    model = pipeline('fill-mask', model='albert-base-v2')
+    model = pipeline("fill-mask", model="albert-base-v2")
     return model
 
 
@@ -54,11 +54,14 @@ st.sidebar.info(
 
 # Ввод текста
 
-inp = st.text_input('Please type the text in English using [MASK] (as shown below):', 'I study economics at [MASK].')
-run_button = st.button(label='Run')
+inp = st.text_input(
+    "Please type the text in English using [MASK] (as shown below):",
+    "I study economics at [MASK].",
+)
+run_button = st.button(label="Run")
 
 if run_button:
-    with st.spinner('Wait for it...'):
+    with st.spinner("Wait for it..."):
         time.sleep(5)
 
         text = model(inp)
