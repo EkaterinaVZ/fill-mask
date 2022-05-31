@@ -37,7 +37,6 @@ def test_post_predict_three():
     assert json_data == "i work in hanoi."
 
 
-
 def test_post_predict_four():
     response = client.post(
         "/predict/",

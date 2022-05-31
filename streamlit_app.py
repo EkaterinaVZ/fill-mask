@@ -7,7 +7,14 @@ import time
 import streamlit as st
 from transformers import pipeline
 
-unmasker = pipeline('fill-mask', model='albert-base-v2')
+
+def load_model():
+    model = pipeline('fill-mask', model='albert-base-v2')
+    return model
+
+
+model = load_model()
+
 #  логотип и название
 col1, col2 = st.columns([1, 1])
 
@@ -18,7 +25,6 @@ with col2:
     st.image("books.png")
 
 # Боковая панель
-
 st.sidebar.image("logotip.png", width=250)
 st.sidebar.title("About the project:")
 st.sidebar.info(
@@ -55,14 +61,8 @@ if run_button:
     with st.spinner('Wait for it...'):
         time.sleep(5)
 
-        text = unmasker(inp)
+        text = model(inp)
     st.balloons()
     st.success("Possible variants for the sentence:")
     for el in text:
         st.write(el["sequence"])
-
-# Убрать STREAMLIT STYLE
-
-
-# streamlit run uber_pickups.py
-# streamlit run C:/Users/Админ/PycharmProjects/fill-mask/uber_pickups.py

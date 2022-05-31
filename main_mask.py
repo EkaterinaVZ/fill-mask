@@ -22,7 +22,6 @@ def root():
 
 @app.post("/predict/")
 def predict(item: Item):
-   def predict(item: Item):
     """Предварительно подготовленная модель на английском языке.
     Вместо [MASK] моделирует(подбирает) слово.
     Источник - https://huggingface.co/albert-base-
@@ -32,6 +31,4 @@ def predict(item: Item):
 
     return unmasker(item.text)[0]["sequence"]
 
-
     return unmasker(item.text)[0]["sequence"]
-
