@@ -2,26 +2,25 @@
 # Our streamlit app
 """
 
-import time
 
-import streamlit as st
-from transformers import pipeline
 
 
 def load_model():
     model = pipeline("fill-mask", model="albert-base-v2")
     return model
 
+import time, streamlit as st
+from transformers import pipeline
 
 model = load_model()
 
 #  логотип и название
-col1, col2 = st.columns([1, 1])
+a, b = st.columns([1, 1])
 
-with col1:
+with a:
     st.header('Model "Fill mask"')
 
-with col2:
+with b:
     st.image("books.png")
 
 # Боковая панель
