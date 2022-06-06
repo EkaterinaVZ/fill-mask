@@ -1,48 +1,71 @@
-from fastapi.testclient import TestClient
+"""
+# Our streamlit app
+"""
 
-from main_mask import app
+import time
 
-client = TestClient(app)
-
-
-def test_get_main():
-    response = client.get("/")
-    assert response.status_code == 200
-    assert response.json() == {"message": "All right, there is a connection."}
+import streamlit as st
+from transformers import pipeline
 
 
-def test_post_predict_one():
-    response = client.post(
-        "/predict/", json={"text": "All [MASK], there is a connection."}
-    )
-    json_data = response.json()
-
-    assert response.status_code == 200
-    assert json_data == "all alike, there is a connection."
+def load_model():
+    model = pipeline("fill-mask", model="albert-base-v2")
+    return model
 
 
-def test_post_predict_two():
-    response = client.post("/predict/", json={"text": "I hate [MASK] learning!"})
-    json_data = response.json()
+model = load_model()
 
-    assert response.status_code == 200
-    assert json_data == "i hate constantly learning!"
+#  логотип и название
+col1, col2 = st.columns([1, 1])
 
+with col1:
+    st.header('Model "Fill mask"')
 
-def test_post_predict_three():
-    response = client.post("/predict/", json={"text": "I work in [MASK]."})
-    json_data = response.json()
+with col2:
+    st.image("books.png")
 
-    assert response.status_code == 200
-    assert json_data == "i work in hanoi."
+# Боковая панель
+st.sidebar.image("logotip.png", width=250)
+st.sidebar.title("About the project:")
+st.sidebar.info(
+    """
+    Machine learning model 'albert-base-v2' (https://huggingface.co/albert-base-v2). 
+    """
+)
 
+st.sidebar.info(
+    """
+    The model generates a word instead of [MASK] in a sentence in English language.
+    """
+)
 
-def test_post_predict_four():
-    response = client.post(
-        "/predict/",
-        json={"text": "we are [MASK] at the university for the second year."},
-    )
-    json_data = response.json()
+st.sidebar.info(
+    """
+    The model generates a word instead of [MASK] in a sentence in English language.
+    """
+)
 
-    assert response.status_code == 200
-    assert json_data == "we are now at the university for the second year."
+st.sidebar.info(
+    """
+    Examples: I like apples and  [MASK]., My [MASK] often travels.,
+    I always get up at 8 o’clock in the [MASK]., We have a [MASK] in London., He [MASK] football every Saturday.
+    """
+)
+
+# Ввод текста
+
+inp = st.text_input(
+    "Please type the text in English using [MASK] (as shown below):",
+    "I study economics at [MASK].",
+)
+run_button = st.button(label="Run")
+
+if run_button:
+    with st.spinner("Wait for it..."):
+        time.sleep(5)
+
+        text = model(inp)
+    st.balloons()
+    st.success("Possible variants for the sentence:")
+    for el in text:
+        st.write(el["sequence"])
